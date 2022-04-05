@@ -13,7 +13,7 @@ class CalculatorTest {
         assertEquals(expected, calculator.add(2, 1), message("2 + 1 should equal 3"));
     }
     @Test
-    @DisplayName("2 - 1 = 1")
+    @DisplayName("2 - 1 = 1") // Testar en fork
     void subTwoNr(){
         Calculator calculator = new Calculator();
         int expected = 1;
